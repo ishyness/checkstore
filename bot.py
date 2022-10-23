@@ -16,7 +16,7 @@ from utils.valorant.cache import get_cache
 
 load_dotenv()
 
-initial_extensions = ['cogs.admin', 'cogs.errors', 'cogs.notify', 'cogs.valorant']
+initial_extensions = ['cogs.admin', 'cogs.errors', 'cogs.notify', 'cogs.valorant', 'cogs.gcitypl']
 
 # intents required
 intents = discord.Intents.default()
