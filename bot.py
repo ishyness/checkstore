@@ -74,9 +74,9 @@ class ValorantBot(commands.Bot):
         print(f"\nLogged in as: {self.user}\n\n BOT IS READY !")
         print(f"Version: {self.bot_version}")
 
-        # bot presence
-        activity_type = discord.ActivityType.listening
-        await self.change_presence(activity=discord.Activity(type=activity_type, name="(╯•﹏•╰)"))
+        # bot presence RICH PRESENT
+        #activity_type = discord.ActivityType.listening
+        #await self.change_presence(activity=discord.Activity(type=activity_type, name="(╯•﹏•╰)"))
 
     async def setup_hook(self) -> None:
         if self.session is None:
